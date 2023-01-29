@@ -35,3 +35,4 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 streamlit.dataframe(fruityvice_normalized)
 
 /home/mikorza/venv/bin/python -m pip install --upgrade pip
+sudo apt install pipenv
